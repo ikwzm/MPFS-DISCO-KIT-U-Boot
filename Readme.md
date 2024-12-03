@@ -50,7 +50,7 @@ shell$ cd u-boot-mchp-fpga-2024.09
 shell$ grep CONFIG_ENV_SIZE .config
 CONFIG_ENV_SIZE=0x2000
 shell$ export CONFIG_ENV_SIZE=0x2000
-shell$ tools/mkenvimage -s $CONFIG_ENV_SIZE ../files/uEnv.txt -o ../uboot.env
+shell$ tools/mkenvimage -s $CONFIG_ENV_SIZE ../files/uboot-env.txt -o ../uboot.env
 ```
 
 ### boot.scr
